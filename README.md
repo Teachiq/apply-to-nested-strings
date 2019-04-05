@@ -1,5 +1,5 @@
 # Apply to nested strings
-Apply a string modifier to all strings within a object or array.
+Apply a string modifier to all strings within an object or array.
 
 ## Installation
 ```npm install apply-to-nested-strings```

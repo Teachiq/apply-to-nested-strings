@@ -1,7 +1,7 @@
 {
   "name": "apply-to-nested-strings",
-  "version": "1.1.1",
-  "description": "Boilerplate for javascript module, ready to package for npm.",
+  "version": "1.0.0",
+  "description": "Apply a string modifier to all strings within an object or array.",
   "author": "Mattias Naarttijärvi",
   "license": "MIT",
   "private": false,
@@ -22,7 +22,7 @@
     "watch": "jest --watch --config test/jest.conf.js",
     "prod": "npm run lint && npm run test && npm run build"
   },
-  "keywords": [],
+  "keywords": ["string", "deep", "nested", "javascript"],
   "devDependencies": {
     "@babel/core": "^7.0.1",
     "@babel/preset-env": "^7.0.0",
