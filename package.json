@@ -1,6 +1,6 @@
 {
   "name": "apply-to-nested-strings",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Apply a string modifier to all strings within an object or array.",
   "author": "Mattias Naarttijärvi",
   "license": "MIT",
