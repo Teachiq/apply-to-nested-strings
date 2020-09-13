@@ -2,7 +2,7 @@
 const isObject = (value: any): boolean => value && typeof value === 'object' && value.constructor === Object
 const isArray = (value: any): boolean => value && typeof value === 'object' && value.constructor === Array
 
-function recursion<T>(item: any, applier: (str: string) => string): T {
+function recursion<T> (item: any, applier: (str: string) => string): T {
   if (typeof item === 'string') {
     item = applier(item)
   } else if (isObject(item)) {
@@ -19,7 +19,6 @@ function recursion<T>(item: any, applier: (str: string) => string): T {
   return item
 }
 
-export default function applyToNestedString<T>(item: T, applier: (str: string) => string): T {
+export default function applyToNestedString<T> (item: T, applier: (str: string) => string): T {
   return recursion<T>(item, applier)
 }
-
