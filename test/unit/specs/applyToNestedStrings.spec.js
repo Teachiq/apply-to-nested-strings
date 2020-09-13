@@ -1,4 +1,4 @@
-import applyToNestedStrings from 'src/applyToNestedStrings.js'
+import applyToNestedStrings from '@/applyToNestedStrings'
 
 test('Module exists', () => {
   expect(applyToNestedStrings).toBeTruthy()
