@@ -1,13 +1,17 @@
 {
-  "name": "apply-to-nested-strings",
+  "name": "@teachiq/apply-to-nested-strings",
   "version": "1.0.3",
   "description": "Apply a string modifier to all strings within an object or array.",
   "author": "Mattias Naarttijärvi",
   "license": "MIT",
   "private": false,
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Naartti/apply-to-nested-strings.git"
+    "url": "https://github.com/teachiq/apply-to-nested-strings.git"
   },
   "main": "lib/index.js",
   "module": "lib/index.js",
